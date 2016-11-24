@@ -1,0 +1,165 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.top-link {
+    background-color: #5cb85c;
+}
+
+.header-logo > img {
+    margin: 5px 0;
+}
+
+.navbar-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    width:100%;
+    background-color: #449d44;
+}
+
+
+
+.nav-item {
+    margin: 0;
+    padding: 5px;
+    border: solid white;
+    border-width: 0 2px 0 0;
+    background-color: #449d44;
+    display: block;
+    float: left;
+    min-width: 75px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.nav-item > a {
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.nav-item > a:hover {
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+
+.nav-item-icon {
+    border-left: 2px solid white !important;
+}
+
+.nav-item-icon a:hover {
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+.slider-layout{
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.inner-container{
+    margin: 0;
+    padding: 5px;
+    width:100%;
+}
+
+.menu-left {
+    width:100%;
+    padding: 5px;
+    margin: 0;
+    border: 4px dashed cyan;
+}
+
+.menu-left-header {
+    margin: 5px 0 15px 0;
+    padding: 5px;
+    border-bottom: 2px solid #66512c;
+}
+.menu-left-item {
+    display: block;
+    background-color: #ffffff;
+    margin: 2px;
+    padding-left: 10px;
+
+}
+
+.menu-left-item > a{
+    text-decoration: none;
+}
+
+.menu-left-item > a:hover{
+    text-decoration: none;
+}
+
+.box-pagination {
+    padding: 0;
+    margin: 0 0 0 -50px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 100%;
+
+    position: absolute;
+    left: 50%;
+
+    bottom: 0;
+}
+
+.box-pagination > li {
+    display: inline;
+
+}
+.box-pagination > li > a{
+    text-indent: -999999px;
+    position: relative;
+    float: left;
+    padding: 6px;
+    margin: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
+
+}
+
+#slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 500%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width:20%;
+}
+
+.slide > img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
